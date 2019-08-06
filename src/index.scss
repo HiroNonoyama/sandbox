@@ -1,0 +1,48 @@
+.container { 
+  border: solid black 1px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.buttonWrapper {
+  position: relative;
+}
+
+.wrap {
+  position: relative;
+}
+
+.in {
+  top: 8px;
+  animation: slideIn 0.2s ease-in-out;
+}
+
+.out {
+  opacity: 0;
+  animation: slideOut 0.2s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    top: 0px;
+    opacity: 0;
+  }
+  100% {
+    top: 8px;
+    opacity: 1;
+  };
+}
+
+@keyframes slideOut {
+  0% {
+    top: 8px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    opacity: 0;
+  }; 
+}
