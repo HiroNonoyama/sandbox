@@ -1,26 +1,11 @@
-.container { 
-  border: solid black 1px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  padding: 4px;
-  cursor: pointer;
-}
-
-.buttonWrapper {
-  position: relative;
-}
-
-.wrap {
-  position: relative;
-}
-
 .in {
+  position: relative;
   top: 8px;
   animation: slideIn 0.2s ease-in-out;
 }
 
 .out {
+  position: relative;
   opacity: 0;
   animation: slideOut 0.2s ease-in-out;
 }
